@@ -62,7 +62,7 @@ are listed below.
     -   [x] Live Preview
         -   [x] Editor/Preview splited vertically
         -   [ ] Side by side. Ref
-                [`Google Colab`](https://colab.research.google.com/drive/16RMW8h7h2zcfuamLkhWucf2ooo82yky1#scrollTo=0h0u01uSB4nT).
+                [`Google Colab`](HTTPS://colab.research.google.com/drive/16RMW8h7h2zcfuamLkhWucf2ooo82yky1#scrollTo=0h0u01uSB4nT).
                 (The preview can be in an another editor group, similar to
                 markdown preview to the side)
     -   [ ] Markdown engine
@@ -80,12 +80,12 @@ are listed below.
 
 🐍 Python supports all Mimetypes which are supported by `nteract`. Refs:
 
--   [`jupyterlab`](https://jupyterlab.readthedocs.io/en/stable/user/file_formats.html)
--   [`ipython`](https://ipython.readthedocs.io/en/stable/api/generated/IPython.core.formatters.html?highlight=text%2Flatex#IPython.core.formatters.DisplayFormatter)
+-   [`jupyterlab`](HTTPS://jupyterlab.readthedocs.io/en/stable/user/file_formats.html)
+-   [`ipython`](HTTPS://ipython.readthedocs.io/en/stable/api/generated/IPython.core.formatters.html?highlight=text%2Flatex#IPython.core.formatters.DisplayFormatter)
 
 The following MIME types are usually implemented by Notebook client. We track
 all mime types we support with
-[`test files`](https://github.com/rebornix/notebook-test/blob/master/samples/mimetypes.ipynb).
+[`test files`](HTTPS://github.com/rebornix/notebook-test/blob/master/samples/mimetypes.ipynb).
 
 -   Stream
     -   [x] Text
@@ -138,7 +138,7 @@ Cell metadata is used to control the rendering of a cell, for example we can
 disable editing of markdown cells by setting `editable` to `false`.
 
 Refs:
-[`nbformat`](https://nbformat.readthedocs.io/en/latest/format_description.html#cell-metadata)
+[`nbformat`](HTTPS://nbformat.readthedocs.io/en/latest/format_description.html#cell-metadata)
 
 -   [ ] 1️⃣ editable/readonly
 -   [ ] 1️⃣ deletable
@@ -157,7 +157,7 @@ Refs:
 Output metadata can provide information of how to render an output.
 
 Refs:
-[`nbformat`](https://nbformat.readthedocs.io/en/latest/format_description.html#output-metadata)
+[`nbformat`](HTTPS://nbformat.readthedocs.io/en/latest/format_description.html#output-metadata)
 
 -   [ ] 1️⃣ isolated. isolated output should be isolated into an iframe
 -   [ ] 1️⃣ dimensions.
@@ -167,7 +167,7 @@ Refs:
 # Editor Features
 
 Notebooks contain text (markdown) and source code, so users would expect
-[`code editing features`](https://code.visualstudio.com/docs/editor/codebasics)
+[`code editing features`](HTTPS://code.visualstudio.com/docs/editor/codebasics)
 from the notebook editor.
 
 -   View/Model States
@@ -180,7 +180,7 @@ from the notebook editor.
                 scroll the notebook (our virtualization optimization leads to
                 state loss now).
         -   [ ] 1️⃣ Move editor across editor groups and persist states
--   Basic Editing ([`ref`](https://code.visualstudio.com/docs/editor/codebasics))
+-   Basic Editing ([`ref`](HTTPS://code.visualstudio.com/docs/editor/codebasics))
     -   [ ] 🐍 1️⃣ Find in File. Users might want to F&R in editable markdown
             cells too.
     -   [ ] 1️⃣ Replace in File.
@@ -205,7 +205,7 @@ easily accessibable, we may want to have a better UX to ensure users can be
 **productive**.
 
 Refs:
-[`jupyterlab api for cell management`](https://jupyterlab.readthedocs.io/en/stable/developer/notebook.html)
+[`jupyterlab api for cell management`](HTTPS://jupyterlab.readthedocs.io/en/stable/developer/notebook.html)
 
 -   UX polish
     -   [ ] 🐍 Run code cell, Edit
@@ -336,8 +336,8 @@ in classic Jupyter Notebook.
 
 Refs:
 
--   https://github.com/jupyter/notebook/issues/1801
--   https://github.com/jupyterlab/jupyterlab/issues/4878
+-   HTTPS://github.com/jupyter/notebook/issues/1801
+-   HTTPS://github.com/jupyterlab/jupyterlab/issues/4878
 
 # Language Features
 
@@ -400,7 +400,7 @@ are labeled as the right language
 
 Refs:
 
--   [`Google Colaboratory`](https://colab.research.google.com/notebooks/intro.ipynb#recent=true)
+-   [`Google Colaboratory`](HTTPS://colab.research.google.com/notebooks/intro.ipynb#recent=true)
 
 # Debug
 
